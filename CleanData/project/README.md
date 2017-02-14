@@ -37,7 +37,7 @@ Inertial Signals - not used for the project
 How does it work - run_analysis.R
 ---------------------------------
 
-## run_analysis.R is designed to clean up the data as required by the course project. Apart from the base packages, it requires two extra packages - dplyr and reshape2.
+### run_analysis.R is designed to clean up the data as required by the course project. Apart from the base packages, it requires two extra packages - dplyr and reshape2.
 
 1. Load in dplyr and reshape2 packages
 2. Load in data from the source files including activity label definition, measurement feature definition, training data set and testing data set. There are 3 components for the training and testing data, volunteers/subject id, activity id and 561 measured features. The sensor readings in Inertial Signals folder are not relevant to this project work. 
