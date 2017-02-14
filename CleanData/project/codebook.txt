@@ -1,0 +1,24 @@
+Code Book for run_analysis.R file
+
+Package Required - dplyr, reshape2
+
+Variables
+
+raw_labels - A list of activity label definitions. The definition contains an numeric id value and a text description.
+labels - A data frame of activity label definitions. First column is id and the second column is description.
+raw_features - A vector of meansurement features.
+tmp_features - A list of meansurement feature definitions. Only contains mean and standard deviation features. The definition contains an numeric id value and a text description.
+features - A data frame of mean and standard deviation feature definitions. First column is id and the second column is description.
+raw_train_subject - A vector of the subject id value for the training measurement.
+raw_train_activity - A vector of the activity id value for the training measurement.
+raw_train_data - A vector of the training measurement data.
+raw_test_subject - A vector of the subject id value for the testing measurement.
+raw_test_activity - A vector of the activity id value for the testing measurement.
+raw_test_data - A vector of the testing measurement data.
+merged_data - A matrix of combined training and testing meansurement data.
+filtered_data - A matrix of conbined training and testing meansurement data having only mean and standard deviation features values
+final_data - A data frame of cleaned up data. It has 3 key columns - sid, aid and activity and data columns for each mean and standard deviation feature readings. sid is subject id. aid is activity id. activity is activity description. 
+
+Output
+
+mean_data - a data frame of tidy data set with average of each feature for each activity and each subject
